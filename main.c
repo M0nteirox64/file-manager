@@ -28,6 +28,7 @@ int main() {
                 printf(">>> ");
                 scanf("%s", write);
                 fprintf(file, "%s", write);
+                system("pause");
             } else {
                 exit(0);
             }
